@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['pixmap_12',['pixMap',['../class_main_window.html#aec79c8d62037d106234878cce5db3964',1,'MainWindow']]]
+  ['randomnoiseimage_12',['RandomNoiseImage',['../md__r_e_a_d_m_e.html',1,'']]],
+  ['rangen_13',['ranGen',['../class_main_window.html#ab4ccfd9eea4fd5c42e3a1cc2e840901f',1,'MainWindow']]],
+  ['readme_2emd_14',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ui_15',['Ui',['../namespace_ui.html',1,'']]],
-  ['ui_16',['ui',['../class_main_window.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow']]]
+  ['_7emainwindow_18',['~MainWindow',['../class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
 ];

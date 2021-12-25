@@ -34,8 +34,12 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
-    QPixmap pixMap;
     QImage myImage;
+    /**
+     * @brief ranGen
+     * @details Creates a cryptographically secure random number generator\n
+     * using QRandomGenerator::system() and securely seeding it.
+     */
     QRandomGenerator ranGen = QRandomGenerator::securelySeeded();
 
     /**
