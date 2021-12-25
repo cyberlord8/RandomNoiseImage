@@ -21,7 +21,14 @@ public:
     ~MainWindow();
 
 private slots:
+    /**
+    * @brief on_pushButtonGenerate_clicked
+    * @details Generates an image with random colored pixels*/
     void on_pushButtonGenerate_clicked();
+    /**
+     * @brief on_pushButtonSave_clicked
+     * @details Saves image to a png file
+     */
     void on_pushButtonSave_clicked();
 
 private:
@@ -31,9 +38,29 @@ private:
     QImage myImage;
     QRandomGenerator ranGen = QRandomGenerator::securelySeeded();
 
+    /**
+     * @brief initializeApp
+     * @details Initializes the application, draws the initial image
+     */
     void initializeApp();
+    /**
+     * @brief genRand
+     * @param max max number to generate
+     * @return qint64 random number
+     * @details Generates a random number between 0 and max
+     */
     qint64 genRand(qint64 max);
+    /**
+     * @brief getRandomColor
+     * @return QRgb random color
+     * @details Generates a Qrgb random color object
+     */
     QRgb getRandomColor();
+    /**
+     * @brief getRandomGreyScale
+     * @return Qrgb random grey color object
+     * @details Generates a QRgb random grey object
+     */
     QRgb getRandomGreyScale();
 };
 #endif // MAINWINDOW_H
